@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+baseurl: ""
+url: "https://telnetbot.github.io"
+title: "@TelnetBot"
+description: "Run shell commands on Twitter"
 
 defaults:
-  - 
+  -
     scope:
       path: "" # an empty string here means all files in the project
     values:
@@ -19,7 +19,7 @@ theme_settings:
   favicon: assets/favicon.ico
 
   # Header and footer text
-  header_text: Change header text in <code>_config.yml</code>
+  header_text: "@telnetbot: Run shell commands on Twitter"
   header_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -33,7 +33,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "telnetbot"
   google_plus:
   instagram:
   keybase:
@@ -44,7 +44,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: # "twitter username"
+  twitter: telnetbot # "twitter username"
   vimeo:
   wordpress:
   youtube:
@@ -61,7 +61,7 @@ theme_settings:
     wordpress:
     email: true
 
-  # Scripts / Features 
+  # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
@@ -92,14 +92,10 @@ paginate_path: "blog/page:num"
 
 # AUTHORS
 authors:
-  mhagnumdw: # author-id
-    name: MhagnumDw
-    avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
-    url: 
-  sylhare:
-    name: Sylhare
-    avatar: "assets/img/avatars/sylhare_avatar.png"
-    url: "https://github.com/sylhare"
+  shyhoof: # author-id
+    name: shyhoof
+    avatar: "assets/img/avatars/shy.png"
+    url: "https://twitter.com/shyhoof"
 
 # PORTFOLIO
 collections:
